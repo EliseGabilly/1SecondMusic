@@ -19,6 +19,8 @@ import com.spotify.sdk.android.auth.AuthorizationClient;
 import com.spotify.sdk.android.auth.AuthorizationRequest;
 import com.spotify.sdk.android.auth.AuthorizationResponse;
 
+import java.util.Objects;
+
 public class SplashActivity extends AppCompatActivity {
 
     private SharedPreferences.Editor editor;
@@ -30,16 +32,14 @@ public class SplashActivity extends AppCompatActivity {
     private static final String REDIRECT_URI = "https://com.fr.oneSecMusic.activity/callback";
     private static final int REQUEST_CODE = 1337;
     private static final String SCOPES = "user-read-recently-played,user-library-modify,user-read-email,user-read-private,user-read-playback-state,user-modify-playback-state," +
-            "playlist-read-private,playlist-modify-public,playlist-modify-private"+
-            "";
+            "playlist-read-private,playlist-modify-public,playlist-modify-private";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        Objects.requireNonNull(getSupportActionBar()).hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_splash);
-
 
         authenticateSpotify();
 

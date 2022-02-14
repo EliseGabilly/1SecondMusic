@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements PlaylistViewAdapt
 
         reqService = new ReqService(getApplicationContext());
 
-
         fabAdd = findViewById(R.id.fabAdd);
         fabPlay = findViewById(R.id.fabPlay);
         fabEdit = findViewById(R.id.fabEdit);
@@ -121,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements PlaylistViewAdapt
                 .setNegativeButton("Annuler", (dialog, which) -> {
                 })
                 .show());
-        fabPlay.setOnClickListener(view -> playPlaylist(playlistIdSelected));
+        fabPlay.setOnClickListener(view -> startGame(playlistIdSelected));
         fabEdit.setOnClickListener(view -> editPlaylist());
     }
 
@@ -137,15 +136,13 @@ public class MainActivity extends AppCompatActivity implements PlaylistViewAdapt
         }
     }
 
-    private void playPlaylist(String playlistIdSelected) {
+    private void startGame(String playlistIdSelected) {
         boolean isPlayerPlaying = reqService.getIsPlayerPlaying();
         if (isPlayerPlaying) {
             reqService.putPausePlayback();
         } else {
             reqService.putPlayPlaylist(playlistIdSelected);
         }
-
-
     }
 
     private void addPlaylist(String playlistName, String playlistDescription) {

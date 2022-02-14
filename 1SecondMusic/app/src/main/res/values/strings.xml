@@ -22,4 +22,10 @@
     <string name="no_music">\"No music. Add an album with the (+) button \"</string>
     <string name="search_no_match">No match found. Try another research.</string>
     <string name="_1sec_playlistname">1Sec_playlistname</string>
+    <string name="album">Album :</string>
+    <string name="title">Title :</string>
+    <string name="guess">Guess</string>
+    <string name="next">Next</string>
+    <string name="answer">Answer :</string>
+    <string name="guess_column">Guess :</string>
 </resources>
