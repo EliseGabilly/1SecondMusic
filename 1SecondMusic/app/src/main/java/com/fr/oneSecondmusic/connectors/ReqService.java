@@ -9,9 +9,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.fr.oneSecondmusic.Utils;
-import com.fr.oneSecondmusic.onbject.Album;
-import com.fr.oneSecondmusic.onbject.Playlist;
-import com.fr.oneSecondmusic.onbject.Song;
+import com.fr.oneSecondmusic.object.Album;
+import com.fr.oneSecondmusic.object.Playlist;
+import com.fr.oneSecondmusic.object.Song;
 
 import org.json.JSONArray;
 import org.json.JSONException;

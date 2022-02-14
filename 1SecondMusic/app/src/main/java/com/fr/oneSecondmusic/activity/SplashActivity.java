@@ -14,7 +14,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.fr.oneSecondmusic.R;
 import com.fr.oneSecondmusic.connectors.UserService;
-import com.fr.oneSecondmusic.onbject.User;
+import com.fr.oneSecondmusic.object.User;
 import com.spotify.sdk.android.auth.AuthorizationClient;
 import com.spotify.sdk.android.auth.AuthorizationRequest;
 import com.spotify.sdk.android.auth.AuthorizationResponse;

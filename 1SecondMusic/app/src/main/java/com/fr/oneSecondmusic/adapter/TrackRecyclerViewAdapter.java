@@ -11,7 +11,7 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fr.oneSecondmusic.R;
-import com.fr.oneSecondmusic.onbject.Song;
+import com.fr.oneSecondmusic.object.Song;
 
 import java.util.List;
 

@@ -19,8 +19,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.fr.oneSecondmusic.R;
 import com.fr.oneSecondmusic.adapter.AlbumRecyclerViewAdapter;
 import com.fr.oneSecondmusic.connectors.ReqService;
-import com.fr.oneSecondmusic.onbject.Album;
-import com.fr.oneSecondmusic.onbject.Song;
+import com.fr.oneSecondmusic.object.Album;
+import com.fr.oneSecondmusic.object.Song;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

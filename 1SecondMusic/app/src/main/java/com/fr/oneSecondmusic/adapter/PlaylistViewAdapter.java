@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fr.oneSecondmusic.R;
-import com.fr.oneSecondmusic.onbject.Playlist;
+import com.fr.oneSecondmusic.object.Playlist;
 
 import java.util.List;
 

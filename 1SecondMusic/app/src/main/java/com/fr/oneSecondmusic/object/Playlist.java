@@ -1,4 +1,4 @@
-package com.fr.oneSecondmusic.onbject;
+package com.fr.oneSecondmusic.object;
 
 import android.widget.ImageView;
 

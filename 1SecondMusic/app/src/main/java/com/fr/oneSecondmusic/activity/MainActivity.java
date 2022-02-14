@@ -22,7 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.fr.oneSecondmusic.R;
 import com.fr.oneSecondmusic.adapter.PlaylistViewAdapter;
 import com.fr.oneSecondmusic.connectors.ReqService;
-import com.fr.oneSecondmusic.onbject.Playlist;
+import com.fr.oneSecondmusic.object.Playlist;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

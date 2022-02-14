@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.fr.oneSecondmusic.MyApplication;
 import com.fr.oneSecondmusic.R;
 import com.fr.oneSecondmusic.Utils;
-import com.fr.oneSecondmusic.onbject.Album;
+import com.fr.oneSecondmusic.object.Album;
 
 import java.util.List;
 
