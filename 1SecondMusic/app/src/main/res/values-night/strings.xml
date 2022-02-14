@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spotifilm</string>
+    <string name="informations">Informations</string>
+    <string name="welcome">Welcome to 1SecMusic. \nThe app to easely create playlist to play blind test with. \n Use the buttons to crete and edit yours playlists.</string>
+    <string name="enter_playlist_name">Enter Playlist Name</string>
+    <string name="enter_playlist_description">Enter Playlist Description</string>
+    <string name="add">add</string>
+    <string name="play">play</string>
+    <string name="edit">edit</string>
+    <string name="proposition_3">proposition 3</string>
+    <string name="proposition_2">proposition 2</string>
+    <string name="proposition_1">proposition 1</string>
+    <string name="splash">Splash</string>
+    <string name="txt_ntxt">txt \ntxt</string>
+    <string name="delete">delete</string>
+    <string name="save">save</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="this_actions_is_inreversible_nare_your_sur_you_want_to_delete_this_playlist">This actions is inreversible.\nAre your sur you want to delete this playlist ?</string>
+</resources>
