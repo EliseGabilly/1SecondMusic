@@ -28,4 +28,8 @@
     <string name="next">Next</string>
     <string name="answer">Answer :</string>
     <string name="guess_column">Guess :</string>
+    <string name="no_music_game">Please selected a playlist with some music to launch a game.</string>
+    <string name="home">Home</string>
+    <string name="music_nb_over_nb">Music %f / %f</string>
+    <string name="start">Start</string>
 </resources>

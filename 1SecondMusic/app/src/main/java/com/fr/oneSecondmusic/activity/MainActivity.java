@@ -22,6 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.fr.oneSecondmusic.R;
 import com.fr.oneSecondmusic.adapter.PlaylistViewAdapter;
 import com.fr.oneSecondmusic.connectors.ReqService;
+import com.fr.oneSecondmusic.object.Game;
 import com.fr.oneSecondmusic.object.Playlist;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -137,11 +138,13 @@ public class MainActivity extends AppCompatActivity implements PlaylistViewAdapt
     }
 
     private void startGame(String playlistIdSelected) {
-        boolean isPlayerPlaying = reqService.getIsPlayerPlaying();
-        if (isPlayerPlaying) {
-            reqService.putPausePlayback();
+        if (!playlistIdSelected.isEmpty()) {
+            Game game = new Game(playlistIdSelected);
+            Intent myIntent = new Intent(MainActivity.this, GameActivity.class);
+            myIntent.putExtra("game", game);
+            MainActivity.this.startActivity(myIntent);
         } else {
-            reqService.putPlayPlaylist(playlistIdSelected);
+            Toast.makeText(this, "Select a playlist to play", Toast.LENGTH_LONG).show();
         }
     }
 
